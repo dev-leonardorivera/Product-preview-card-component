@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/flex.min.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container d-flex justify-content-center">
+    <div id="carta" class="row  ">
+      <div class="col-12 col-md-6 m-0 p-0">
+        <picture>
+          <source srcset="./images/image-product-mobile.jpg" media="(max-width:767px)">
+          <img class="img-fluid" src="./images/image-product-desktop.jpg" alt="image-product-desktop">
+        </picture>
+        
+      </div>
+      <div id="body-carta" class="col-12 col-md-6 m-0  " style="background-color: hsl(0, 0%, 100%);">
+        <p id="text-perfume" class="text-secondary">P E R F U M E</p>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p id="parrafo " class="text-secondary" style="font-size: 2vh;">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="row text-start justify-content-start align-items-center my-2">
+          <div id="price" class="col">$149.99</div>
+          <div class="col text-secondary text-decoration-line-through " style="font-size: 2vh;">$169.99</div>
+        </div>
+        <div class="d-grid gap-2  btn-lg mt-4 text-center">
+          <button class="btn btn-success "><img src="./images/icon-cart.svg" alt="icon card" class="me-2 img-fluid" > Add to Cart</button>
+        </div>
+       
+        
+  
+      </div>
+  
+    </div>
+  </div>
+
+
+
+  
+  
+  <div class="attribution">
+    
+    Coded by <a href="https://dev-leonardorivera.github.io/portafolio/" target="_blank">Leonardo Rivera</a>.
+  </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+#carta{
+    max-width: 90vh;
+    margin-top: 5rem;
+}
+img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px ;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 3.6vh;
+    margin-bottom: 3vh;
+}
+
+
+
+#text-perfume{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.6vh;
+}
+
+#price{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 5vh;
+}
+#body-carta{
+    padding: 7vh;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+   
+}
+button{
+   
+    height: 6vh;
+}
+
+@media (max-width:768px) {
+
+    img{
+        border-top-right-radius:8px;
+        border-top-left-radius:8px;
+        border-bottom-left-radius: 0px ;
+    }
+    #body-carta{
+        
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    #carta{
+        padding: 2rem;
+        max-width: 90vh;
+        margin-top: 1rem;
+    }
+  }
+
+@media (min-width:768px) and (max-width:998px) {
+    #body-carta{
+        padding: 2rem;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }     
+  }
+
+ @media(max-height:700px)  and (min-width:998px){
+    
+    button{
+        height: 2.5rem;
+    }
+    #body-carta{
+        padding: 2rem;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+       
+    }
+
+ }
+
